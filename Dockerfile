@@ -3,5 +3,5 @@ MAINTAINER Shivam Mitra "shivamm389@gmail.com" # Change the name and email addre
 COPY app.py test.py /app/
 WORKDIR /app
 RUN pip install flask pytest flake8 # This downloads all the dependencies
-EXPOSE 3007
+EXPOSE 3002
 CMD ["python", "app.py"]
